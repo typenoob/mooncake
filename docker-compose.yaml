@@ -5,3 +5,5 @@ services:
     ports:
       - "80:80"
     privileged: true
+  my_services:
+    privileged: true
