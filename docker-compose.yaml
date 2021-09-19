@@ -4,6 +4,4 @@ services:
     shm_size: 2.6gb
     ports:
       - "80:80"
-    privileged: true
-  my_services:
-    privileged: true
+  command: ["--privileged"]
